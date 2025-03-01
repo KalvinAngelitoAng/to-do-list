@@ -1,0 +1,96 @@
+* {
+  font-family: "Poppins";
+}
+
+body {
+  margin: 0;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#header {
+  width: 300px;
+}
+
+#header h2 {
+  text-align: center;
+  margin: 16px 0;
+}
+
+#submit-section {
+  border-radius: 12px ;
+  border: 2px solid black;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  padding: 8px 8px;
+}
+
+#submit-section form {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+#list-section {
+  border-radius: 12px ;
+  margin-top: 16px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  padding: 8px 8px;
+}
+
+#list-section > h2 {
+  margin-top: 0;
+}
+
+.list-item {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.list-item-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item-detail input {
+  margin-right: 8px;
+}
+
+.list-item-detail input:checked ~ span {
+  text-decoration: line-through;
+}
+
+#delete-all-section {
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  margin: 16px 0;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.btn-alt {
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
